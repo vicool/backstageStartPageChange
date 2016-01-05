@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED18FDA91C3A3FD1009EAACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED18FDA81C3A3FD1009EAACE /* main.m */; };
+		ED18FDAC1C3A3FD1009EAACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED18FDAB1C3A3FD1009EAACE /* AppDelegate.m */; };
+		ED18FDAF1C3A3FD1009EAACE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED18FDAE1C3A3FD1009EAACE /* ViewController.m */; };
+		ED18FDB41C3A3FD1009EAACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED18FDB31C3A3FD1009EAACE /* Assets.xcassets */; };
+		ED18FDC21C3A3FD1009EAACE /* welPageChange_masterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED18FDC11C3A3FD1009EAACE /* welPageChange_masterTests.m */; };
+		ED18FDCD1C3A3FD1009EAACE /* welPageChange_masterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED18FDCC1C3A3FD1009EAACE /* welPageChange_masterUITests.m */; };
+		ED18FDDD1C3A42F6009EAACE /* welcomPage.m in Sources */ = {isa = PBXBuildFile; fileRef = ED18FDDC1C3A42F6009EAACE /* welcomPage.m */; };
+		ED18FDDF1C3A43AD009EAACE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED18FDDE1C3A43AD009EAACE /* LaunchScreen.xib */; };
+		ED18FDE91C3A5D8E009EAACE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED18FDE81C3A5D8E009EAACE /* ViewController.xib */; };
+		ED18FDEA1C3B5F39009EAACE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED18FDE81C3A5D8E009EAACE /* ViewController.xib */; };
+		ED18FDEB1C3B5F3A009EAACE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED18FDE81C3A5D8E009EAACE /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED18FDBE1C3A3FD1009EAACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED18FD9C1C3A3FD1009EAACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED18FDA31C3A3FD1009EAACE;
+			remoteInfo = "welPageChange-master";
+		};
+		ED18FDC91C3A3FD1009EAACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED18FD9C1C3A3FD1009EAACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED18FDA31C3A3FD1009EAACE;
+			remoteInfo = "welPageChange-master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED18FDA41C3A3FD1009EAACE /* welPageChange-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "welPageChange-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED18FDA81C3A3FD1009EAACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED18FDAA1C3A3FD1009EAACE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED18FDAB1C3A3FD1009EAACE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED18FDAD1C3A3FD1009EAACE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED18FDAE1C3A3FD1009EAACE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED18FDB31C3A3FD1009EAACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED18FDB81C3A3FD1009EAACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED18FDBD1C3A3FD1009EAACE /* welPageChange-masterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "welPageChange-masterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED18FDC11C3A3FD1009EAACE /* welPageChange_masterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = welPageChange_masterTests.m; sourceTree = "<group>"; };
+		ED18FDC31C3A3FD1009EAACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED18FDC81C3A3FD1009EAACE /* welPageChange-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "welPageChange-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED18FDCC1C3A3FD1009EAACE /* welPageChange_masterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = welPageChange_masterUITests.m; sourceTree = "<group>"; };
+		ED18FDCE1C3A3FD1009EAACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED18FDDB1C3A42F6009EAACE /* welcomPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = welcomPage.h; sourceTree = "<group>"; };
+		ED18FDDC1C3A42F6009EAACE /* welcomPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = welcomPage.m; sourceTree = "<group>"; };
+		ED18FDDE1C3A43AD009EAACE /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		ED18FDE81C3A5D8E009EAACE /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED18FDA11C3A3FD1009EAACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED18FDBA1C3A3FD1009EAACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED18FDC51C3A3FD1009EAACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED18FD9B1C3A3FD1009EAACE = {
+			isa = PBXGroup;
+			children = (
+				ED18FDA61C3A3FD1009EAACE /* welPageChange-master */,
+				ED18FDC01C3A3FD1009EAACE /* welPageChange-masterTests */,
+				ED18FDCB1C3A3FD1009EAACE /* welPageChange-masterUITests */,
+				ED18FDA51C3A3FD1009EAACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED18FDA51C3A3FD1009EAACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED18FDA41C3A3FD1009EAACE /* welPageChange-master.app */,
+				ED18FDBD1C3A3FD1009EAACE /* welPageChange-masterTests.xctest */,
+				ED18FDC81C3A3FD1009EAACE /* welPageChange-masterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED18FDA61C3A3FD1009EAACE /* welPageChange-master */ = {
+			isa = PBXGroup;
+			children = (
+				ED18FDAA1C3A3FD1009EAACE /* AppDelegate.h */,
+				ED18FDAB1C3A3FD1009EAACE /* AppDelegate.m */,
+				ED18FDAD1C3A3FD1009EAACE /* ViewController.h */,
+				ED18FDAE1C3A3FD1009EAACE /* ViewController.m */,
+				ED18FDE81C3A5D8E009EAACE /* ViewController.xib */,
+				ED18FDDA1C3A4076009EAACE /* WelPageChange */,
+				ED18FDB31C3A3FD1009EAACE /* Assets.xcassets */,
+				ED18FDDE1C3A43AD009EAACE /* LaunchScreen.xib */,
+				ED18FDB81C3A3FD1009EAACE /* Info.plist */,
+				ED18FDA71C3A3FD1009EAACE /* Supporting Files */,
+			);
+			path = "welPageChange-master";
+			sourceTree = "<group>";
+		};
+		ED18FDA71C3A3FD1009EAACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED18FDA81C3A3FD1009EAACE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED18FDC01C3A3FD1009EAACE /* welPageChange-masterTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED18FDC11C3A3FD1009EAACE /* welPageChange_masterTests.m */,
+				ED18FDC31C3A3FD1009EAACE /* Info.plist */,
+			);
+			path = "welPageChange-masterTests";
+			sourceTree = "<group>";
+		};
+		ED18FDCB1C3A3FD1009EAACE /* welPageChange-masterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED18FDCC1C3A3FD1009EAACE /* welPageChange_masterUITests.m */,
+				ED18FDCE1C3A3FD1009EAACE /* Info.plist */,
+			);
+			path = "welPageChange-masterUITests";
+			sourceTree = "<group>";
+		};
+		ED18FDDA1C3A4076009EAACE /* WelPageChange */ = {
+			isa = PBXGroup;
+			children = (
+				ED18FDDB1C3A42F6009EAACE /* welcomPage.h */,
+				ED18FDDC1C3A42F6009EAACE /* welcomPage.m */,
+			);
+			path = WelPageChange;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED18FDA31C3A3FD1009EAACE /* welPageChange-master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED18FDD11C3A3FD1009EAACE /* Build configuration list for PBXNativeTarget "welPageChange-master" */;
+			buildPhases = (
+				ED18FDA01C3A3FD1009EAACE /* Sources */,
+				ED18FDA11C3A3FD1009EAACE /* Frameworks */,
+				ED18FDA21C3A3FD1009EAACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "welPageChange-master";
+			productName = "welPageChange-master";
+			productReference = ED18FDA41C3A3FD1009EAACE /* welPageChange-master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED18FDBC1C3A3FD1009EAACE /* welPageChange-masterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED18FDD41C3A3FD1009EAACE /* Build configuration list for PBXNativeTarget "welPageChange-masterTests" */;
+			buildPhases = (
+				ED18FDB91C3A3FD1009EAACE /* Sources */,
+				ED18FDBA1C3A3FD1009EAACE /* Frameworks */,
+				ED18FDBB1C3A3FD1009EAACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED18FDBF1C3A3FD1009EAACE /* PBXTargetDependency */,
+			);
+			name = "welPageChange-masterTests";
+			productName = "welPageChange-masterTests";
+			productReference = ED18FDBD1C3A3FD1009EAACE /* welPageChange-masterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED18FDC71C3A3FD1009EAACE /* welPageChange-masterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED18FDD71C3A3FD1009EAACE /* Build configuration list for PBXNativeTarget "welPageChange-masterUITests" */;
+			buildPhases = (
+				ED18FDC41C3A3FD1009EAACE /* Sources */,
+				ED18FDC51C3A3FD1009EAACE /* Frameworks */,
+				ED18FDC61C3A3FD1009EAACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED18FDCA1C3A3FD1009EAACE /* PBXTargetDependency */,
+			);
+			name = "welPageChange-masterUITests";
+			productName = "welPageChange-masterUITests";
+			productReference = ED18FDC81C3A3FD1009EAACE /* welPageChange-masterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED18FD9C1C3A3FD1009EAACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "刘家男";
+				TargetAttributes = {
+					ED18FDA31C3A3FD1009EAACE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ED18FDBC1C3A3FD1009EAACE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ED18FDA31C3A3FD1009EAACE;
+					};
+					ED18FDC71C3A3FD1009EAACE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ED18FDA31C3A3FD1009EAACE;
+					};
+				};
+			};
+			buildConfigurationList = ED18FD9F1C3A3FD1009EAACE /* Build configuration list for PBXProject "welPageChange-master" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED18FD9B1C3A3FD1009EAACE;
+			productRefGroup = ED18FDA51C3A3FD1009EAACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED18FDA31C3A3FD1009EAACE /* welPageChange-master */,
+				ED18FDBC1C3A3FD1009EAACE /* welPageChange-masterTests */,
+				ED18FDC71C3A3FD1009EAACE /* welPageChange-masterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED18FDA21C3A3FD1009EAACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED18FDB41C3A3FD1009EAACE /* Assets.xcassets in Resources */,
+				ED18FDE91C3A5D8E009EAACE /* ViewController.xib in Resources */,
+				ED18FDDF1C3A43AD009EAACE /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED18FDBB1C3A3FD1009EAACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED18FDEA1C3B5F39009EAACE /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED18FDC61C3A3FD1009EAACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED18FDEB1C3B5F3A009EAACE /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED18FDA01C3A3FD1009EAACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED18FDAF1C3A3FD1009EAACE /* ViewController.m in Sources */,
+				ED18FDAC1C3A3FD1009EAACE /* AppDelegate.m in Sources */,
+				ED18FDA91C3A3FD1009EAACE /* main.m in Sources */,
+				ED18FDDD1C3A42F6009EAACE /* welcomPage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED18FDB91C3A3FD1009EAACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED18FDC21C3A3FD1009EAACE /* welPageChange_masterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED18FDC41C3A3FD1009EAACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED18FDCD1C3A3FD1009EAACE /* welPageChange_masterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED18FDBF1C3A3FD1009EAACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED18FDA31C3A3FD1009EAACE /* welPageChange-master */;
+			targetProxy = ED18FDBE1C3A3FD1009EAACE /* PBXContainerItemProxy */;
+		};
+		ED18FDCA1C3A3FD1009EAACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED18FDA31C3A3FD1009EAACE /* welPageChange-master */;
+			targetProxy = ED18FDC91C3A3FD1009EAACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED18FDCF1C3A3FD1009EAACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED18FDD01C3A3FD1009EAACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED18FDD21C3A3FD1009EAACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "welPageChange-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vicool.welPageChange-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ED18FDD31C3A3FD1009EAACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "welPageChange-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vicool.welPageChange-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		ED18FDD51C3A3FD1009EAACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "welPageChange-masterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vicool.welPageChange-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/welPageChange-master.app/welPageChange-master";
+			};
+			name = Debug;
+		};
+		ED18FDD61C3A3FD1009EAACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "welPageChange-masterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vicool.welPageChange-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/welPageChange-master.app/welPageChange-master";
+			};
+			name = Release;
+		};
+		ED18FDD81C3A3FD1009EAACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "welPageChange-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vicool.welPageChange-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "welPageChange-master";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ED18FDD91C3A3FD1009EAACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "welPageChange-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vicool.welPageChange-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "welPageChange-master";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED18FD9F1C3A3FD1009EAACE /* Build configuration list for PBXProject "welPageChange-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED18FDCF1C3A3FD1009EAACE /* Debug */,
+				ED18FDD01C3A3FD1009EAACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED18FDD11C3A3FD1009EAACE /* Build configuration list for PBXNativeTarget "welPageChange-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED18FDD21C3A3FD1009EAACE /* Debug */,
+				ED18FDD31C3A3FD1009EAACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED18FDD41C3A3FD1009EAACE /* Build configuration list for PBXNativeTarget "welPageChange-masterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED18FDD51C3A3FD1009EAACE /* Debug */,
+				ED18FDD61C3A3FD1009EAACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED18FDD71C3A3FD1009EAACE /* Build configuration list for PBXNativeTarget "welPageChange-masterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED18FDD81C3A3FD1009EAACE /* Debug */,
+				ED18FDD91C3A3FD1009EAACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED18FD9C1C3A3FD1009EAACE /* Project object */;
+}
